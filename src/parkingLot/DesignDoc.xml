@@ -1,0 +1,63 @@
+design notes:
+
+1) APIs design
+
+
+displayAvailableSpot();
+getParkingSpot();
+park();
+
+2) class
+
+abstarct Vehicle {
+    int id;
+    String plateNum
+    VehicleType type;
+    int size
+    ParkingSpot ps;
+    
+    Timestamp startTime;
+    Timestamp endTime;
+    
+    park(ParkingSpot ps);
+    leave(ParkingSpot ps);
+    canFitin(ParkingSpot ps);
+}
+
+
+enum VehicleType
+
+ParkingSpot {
+    int id;
+    boolean isAvailable;
+    Vehicle vehicle;
+}
+
+Level {
+    int id;
+    int numOfAval;
+    List<List<ParkingSpot>> psList;
+        
+     getParkingSpot();
+    displayAvailableSpot();
+       
+}
+
+ParkingLot(){
+        int id;
+        Lsit<level> levels;     
+        String address;
+        int numOfAval;
+        
+        getParkingSpot();
+       displayAvailableSpot();
+
+}
+
+
+
+
+
+
+
+

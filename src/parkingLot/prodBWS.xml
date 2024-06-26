@@ -1,0 +1,2387 @@
+"<BudgetWorksheet active="true" amendmentNumber="0" applicationNumber="CI22004698" applicationType="PAA" budgetType="Federal Only" dataSource="SF424A" dirty="false" grantNumber="90CI010065-02-02" id="1654407" moneyType="New" previousAwardAmendmentNumber="1" readOnly="false" scenarioName="Initial" schemaVersion="1.0" xmlns="http://xml.grantsolutions.gov/schema/BudgetWorksheet" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:fr="http://orbeon.org/oxf/xml/form-runner" xmlns:widget="http://orbeon.org/oxf/xml/widget" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xxforms="http://orbeon.org/oxf/xml/xforms">
+    <BudgetWorksheetPreferences xmlns="">
+        <categories>
+            <customCategories/>
+            <customLabels>
+                <customLabel parentId="Personnel" source="Program">
+                    <label>Personnel</label>
+                </customLabel>
+                <customLabel parentId="Fringe" source="Program">
+                    <label>Fringe Benefits</label>
+                </customLabel>
+                <customLabel parentId="Travel" source="Program">
+                    <label>Travel</label>
+                </customLabel>
+                <customLabel parentId="Equipment" source="Program">
+                    <label>Equipment</label>
+                </customLabel>
+                <customLabel parentId="Supplies" source="Program">
+                    <label>Supplies</label>
+                </customLabel>
+                <customLabel parentId="Contractual" source="Program">
+                    <label>Contractual</label>
+                </customLabel>
+                <customLabel parentId="Construction" source="Program">
+                    <label>Facilities/Construction</label>
+                </customLabel>
+                <customLabel parentId="Other" source="Program">
+                    <label>Other</label>
+                </customLabel>
+            </customLabels>
+        </categories>
+        <hiddenColumns/>
+        <otherOptions>
+            <allowedProgramStaff source="Program">
+                <role>PO</role>
+            </allowedProgramStaff>
+            <allowedProgramStaff source="Program">
+                <role>AO</role>
+            </allowedProgramStaff>
+            <showInKind source="GrantProgram">
+                <value>true</value>
+            </showInKind>
+            <showFedNegotiator source="GrantProgram">
+                <value>true</value>
+            </showFedNegotiator>
+            <showGranteeNegotiator source="GrantProgram">
+                <value>true</value>
+            </showGranteeNegotiator>
+            <showProgramIncome source="GrantProgram">
+                <value>true</value>
+            </showProgramIncome>
+        </otherOptions>
+    </BudgetWorksheetPreferences>
+    <total id="KBtic7W2" name="Totals" xmlns="">
+        <direct addRequestedInNonFederal="false">
+            <categoryLine categoryType="standard" id="Personnel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Personnel">
+                <previous>
+                    <amount>2270036.00</amount>
+                </previous>
+                <requested>
+                    <amount>83873.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>83873.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>2353909.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>2353909.00</amount>
+                </federal>
+                <total>
+                    <amount>2353909.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Fringe" lastModified="recommended" requestedTransferedToNonFederal="0" title="Fringe Benefits">
+                <previous>
+                    <amount>587939.00</amount>
+                </previous>
+                <requested>
+                    <amount>23484.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>23484.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>611423.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>611423.00</amount>
+                </federal>
+                <total>
+                    <amount>611423.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Travel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Travel">
+                <previous>
+                    <amount>30262.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>30262.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>30262.00</amount>
+                </federal>
+                <total>
+                    <amount>30262.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Equipment" lastModified="recommended" requestedTransferedToNonFederal="0" title="Equipment">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Supplies" lastModified="recommended" requestedTransferedToNonFederal="0" title="Supplies">
+                <previous>
+                    <amount>33127.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>33127.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>33127.00</amount>
+                </federal>
+                <total>
+                    <amount>33127.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Contractual" lastModified="recommended" requestedTransferedToNonFederal="0" title="Contractual">
+                <previous>
+                    <amount>40000.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>40000.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>40000.00</amount>
+                </federal>
+                <total>
+                    <amount>40000.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Construction" lastModified="recommended" requestedTransferedToNonFederal="0" title="Facilities/Construction">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Other" lastModified="recommended" requestedTransferedToNonFederal="0" title="Other">
+                <previous>
+                    <amount>374108.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>374108.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>374108.00</amount>
+                </federal>
+                <total>
+                    <amount>374108.00</amount>
+                </total>
+            </categoryLine>
+            <totals id="TOTALS" title="Total Direct">
+                <previous>
+                    <amount>3335472.00</amount>
+                </previous>
+                <requested>
+                    <amount>107357.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>107357.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>3442829.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>3442829.00</amount>
+                </federal>
+                <total>
+                    <amount>3442829.00</amount>
+                </total>
+            </totals>
+            <indirect id="INDIRECT" lastModified="indirect" title="Indirect Costs">
+                <previous>
+                    <amount>500321.00</amount>
+                </previous>
+                <requested>
+                    <amount>16103.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>16103.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>516424.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>516424.00</amount>
+                </federal>
+                <total>
+                    <amount>516424.00</amount>
+                </total>
+            </indirect>
+            <grandTotals id="grandtotal" title="GRANDTOTAL">
+                <previous>
+                    <amount>3835793.00</amount>
+                </previous>
+                <requested>
+                    <amount>123460.00</amount>
+                </requested>
+                <agencyAdjustedRequested>123460.00</agencyAdjustedRequested>
+                <adjustment readOnly="true">
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>123460.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>123460.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <amount>3959253.00</amount>
+                </federal>
+                <total>
+                    <amount>3959253.00</amount>
+                </total>
+            </grandTotals>
+        </direct>
+        <indirect lastIndirectModified="indirect">
+            <total title="Total Indirect">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <method xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <base xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <rate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <month xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </total>
+            <lines title="1 - Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method>
+                    <method>Manual</method>
+                </method>
+                <base>
+                    <amount>0</amount>
+                </base>
+                <rate>
+                    <percentage>1</percentage>
+                </rate>
+                <month>
+                    <month>12</month>
+                </month>
+                <recommended>
+                    <amount>0</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0</amount>
+                </federal>
+                <total>
+                    <amount>0</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </lines>
+        </indirect>
+        <nonFederal includeProgIncome="true">
+            <previous>
+                <applicant>
+                    <amount>958948.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>958948.00</amount>
+                </total>
+                <percentOfTotal>24.2</percentOfTotal>
+            </previous>
+            <requested>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0</percentOfTotal>
+            </requested>
+            <recommended>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </recommended>
+        </nonFederal>
+    </total>
+    <main activityType="imported" id="YC4mlDdj" name="Head Start: Program Operations" xmlns="">
+        <direct addRequestedInNonFederal="false">
+            <categoryLine categoryType="standard" id="Personnel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Personnel">
+                <previous>
+                    <amount>1825745.00</amount>
+                </previous>
+                <requested>
+                    <amount>53520</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>53520.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>1879265.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>1879265.00</amount>
+                </federal>
+                <total>
+                    <amount>1879265.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Fringe" lastModified="recommended" requestedTransferedToNonFederal="0" title="Fringe Benefits">
+                <previous>
+                    <amount>472868.00</amount>
+                </previous>
+                <requested>
+                    <amount>14986</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>14986.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>487854.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>487854.00</amount>
+                </federal>
+                <total>
+                    <amount>487854.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Travel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Travel">
+                <previous>
+                    <amount>7872.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>7872.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>7872.00</amount>
+                </federal>
+                <total>
+                    <amount>7872.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Equipment" lastModified="recommended" requestedTransferedToNonFederal="0" title="Equipment">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Supplies" lastModified="recommended" requestedTransferedToNonFederal="0" title="Supplies">
+                <previous>
+                    <amount>30946.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>30946.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>30946.00</amount>
+                </federal>
+                <total>
+                    <amount>30946.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Contractual" lastModified="recommended" requestedTransferedToNonFederal="0" title="Contractual">
+                <previous>
+                    <amount>40000.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>40000.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>40000.00</amount>
+                </federal>
+                <total>
+                    <amount>40000.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Construction" lastModified="recommended" requestedTransferedToNonFederal="0" title="Facilities/Construction">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Other" lastModified="recommended" requestedTransferedToNonFederal="0" title="Other">
+                <previous>
+                    <amount>285847.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>285847.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>285847.00</amount>
+                </federal>
+                <total>
+                    <amount>285847.00</amount>
+                </total>
+            </categoryLine>
+            <totals id="TOTALS" title="Total Direct">
+                <previous>
+                    <amount>2663278.00</amount>
+                </previous>
+                <requested>
+                    <amount>68506.00</amount>
+                </requested>
+                <agencyAdjustedRequested>68506.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>68506.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>2731784.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>2731784.00</amount>
+                </federal>
+                <total>
+                    <amount>2731784.00</amount>
+                </total>
+            </totals>
+            <indirect id="INDIRECT" lastModified="recommended" requestedTransferedToNonFederal="0" title="Indirect Costs">
+                <previous>
+                    <amount>399492.00</amount>
+                </previous>
+                <requested>
+                    <amount>10276</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>10276.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>409768.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>409768.00</amount>
+                </federal>
+                <total>
+                    <amount>409768.00</amount>
+                </total>
+            </indirect>
+            <grandTotals id="grandtotal" title="GRANDTOTAL">
+                <previous>
+                    <amount>3062770.00</amount>
+                </previous>
+                <requested>
+                    <amount>78782.00</amount>
+                </requested>
+                <agencyAdjustedRequested>78782.00</agencyAdjustedRequested>
+                <adjustment readOnly="true">
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>78782.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>3141552.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <amount>3141552.00</amount>
+                </federal>
+                <total>
+                    <amount>3141552.00</amount>
+                </total>
+            </grandTotals>
+        </direct>
+        <indirect lastIndirectModified="indirect">
+            <total title="Total Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <base xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <rate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <month xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </total>
+            <lines title="1 - Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method>
+                    <method>Manual</method>
+                </method>
+                <base>
+                    <amount>0.00</amount>
+                </base>
+                <rate>
+                    <percentage>1</percentage>
+                </rate>
+                <month>
+                    <month>12</month>
+                </month>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </lines>
+        </indirect>
+        <nonFederal includeProgIncome="true">
+            <previous title="Recommended">
+                <applicant>
+                    <amount>773808.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>773808.00</amount>
+                </total>
+                <percentOfTotal>24.6</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </previous>
+            <requested>
+                <applicant>
+                    <amount>0</amount>
+                </applicant>
+                <state>
+                    <amount>0</amount>
+                </state>
+                <other>
+                    <amount>0</amount>
+                </other>
+                <programIncome>
+                    <amount>0</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0</percentOfTotal>
+            </requested>
+            <recommended>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </recommended>
+        </nonFederal>
+    </main>
+    <main activityType="imported" id="Apx7PuAf" name="Early Head Start: Program Operations" xmlns="">
+        <direct addRequestedInNonFederal="false">
+            <categoryLine categoryType="standard" id="Personnel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Personnel">
+                <previous>
+                    <amount>444291.00</amount>
+                </previous>
+                <requested>
+                    <amount>30353</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>30353.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>474644.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>474644.00</amount>
+                </federal>
+                <total>
+                    <amount>474644.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Fringe" lastModified="recommended" requestedTransferedToNonFederal="0" title="Fringe Benefits">
+                <previous>
+                    <amount>115071.00</amount>
+                </previous>
+                <requested>
+                    <amount>8498</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>8498.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>123569.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>123569.00</amount>
+                </federal>
+                <total>
+                    <amount>123569.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Travel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Travel">
+                <previous>
+                    <amount>7260.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>7260.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>7260.00</amount>
+                </federal>
+                <total>
+                    <amount>7260.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Equipment" lastModified="recommended" requestedTransferedToNonFederal="0" title="Equipment">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Supplies" lastModified="recommended" requestedTransferedToNonFederal="0" title="Supplies">
+                <previous>
+                    <amount>2181.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>2181.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>2181.00</amount>
+                </federal>
+                <total>
+                    <amount>2181.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Contractual" lastModified="recommended" requestedTransferedToNonFederal="0" title="Contractual">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Construction" lastModified="recommended" requestedTransferedToNonFederal="0" title="Facilities/Construction">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Other" lastModified="recommended" requestedTransferedToNonFederal="0" title="Other">
+                <previous>
+                    <amount>65184.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>65184.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>65184.00</amount>
+                </federal>
+                <total>
+                    <amount>65184.00</amount>
+                </total>
+            </categoryLine>
+            <totals id="TOTALS" title="Total Direct">
+                <previous>
+                    <amount>633987.00</amount>
+                </previous>
+                <requested>
+                    <amount>38851.00</amount>
+                </requested>
+                <agencyAdjustedRequested>38851.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>38851.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>672838.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>672838.00</amount>
+                </federal>
+                <total>
+                    <amount>672838.00</amount>
+                </total>
+            </totals>
+            <indirect id="INDIRECT" lastModified="recommended" requestedTransferedToNonFederal="0" title="Indirect Costs">
+                <previous>
+                    <amount>95098.00</amount>
+                </previous>
+                <requested>
+                    <amount>5827</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>5827.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>100925.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>100925.00</amount>
+                </federal>
+                <total>
+                    <amount>100925.00</amount>
+                </total>
+            </indirect>
+            <grandTotals id="grandtotal" title="GRANDTOTAL">
+                <previous>
+                    <amount>729085.00</amount>
+                </previous>
+                <requested>
+                    <amount>44678.00</amount>
+                </requested>
+                <agencyAdjustedRequested>44678.00</agencyAdjustedRequested>
+                <adjustment readOnly="true">
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>44678.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>773763.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <amount>773763.00</amount>
+                </federal>
+                <total>
+                    <amount>773763.00</amount>
+                </total>
+            </grandTotals>
+        </direct>
+        <indirect lastIndirectModified="indirect">
+            <total title="Total Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <base xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <rate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <month xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </total>
+            <lines title="1 - Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method>
+                    <method>Manual</method>
+                </method>
+                <base>
+                    <amount>0.00</amount>
+                </base>
+                <rate>
+                    <percentage>1</percentage>
+                </rate>
+                <month>
+                    <month>12</month>
+                </month>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </lines>
+        </indirect>
+        <nonFederal includeProgIncome="true">
+            <previous title="Recommended">
+                <applicant>
+                    <amount>185140.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>185140.00</amount>
+                </total>
+                <percentOfTotal>23.9</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </previous>
+            <requested>
+                <applicant>
+                    <amount>0</amount>
+                </applicant>
+                <state>
+                    <amount>0</amount>
+                </state>
+                <other>
+                    <amount>0</amount>
+                </other>
+                <programIncome>
+                    <amount>0</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0</percentOfTotal>
+            </requested>
+            <recommended>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </recommended>
+        </nonFederal>
+    </main>
+    <main activityType="imported" id="xJCLlQD3" name="Head Start: TTA" xmlns="">
+        <direct addRequestedInNonFederal="false">
+            <categoryLine categoryType="standard" id="Personnel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Personnel">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Fringe" lastModified="recommended" requestedTransferedToNonFederal="0" title="Fringe Benefits">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Travel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Travel">
+                <previous>
+                    <amount>11195.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>11195.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>11195.00</amount>
+                </federal>
+                <total>
+                    <amount>11195.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Equipment" lastModified="recommended" requestedTransferedToNonFederal="0" title="Equipment">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Supplies" lastModified="recommended" requestedTransferedToNonFederal="0" title="Supplies">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Contractual" lastModified="recommended" requestedTransferedToNonFederal="0" title="Contractual">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Construction" lastModified="recommended" requestedTransferedToNonFederal="0" title="Facilities/Construction">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Other" lastModified="recommended" requestedTransferedToNonFederal="0" title="Other">
+                <previous>
+                    <amount>17033.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>17033.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>17033.00</amount>
+                </federal>
+                <total>
+                    <amount>17033.00</amount>
+                </total>
+            </categoryLine>
+            <totals id="TOTALS" title="Total Direct">
+                <previous>
+                    <amount>28228.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>28228.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>28228.00</amount>
+                </federal>
+                <total>
+                    <amount>28228.00</amount>
+                </total>
+            </totals>
+            <indirect id="INDIRECT" lastModified="recommended" requestedTransferedToNonFederal="0" title="Indirect Costs">
+                <previous>
+                    <amount>4234.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>4234.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>4234.00</amount>
+                </federal>
+                <total>
+                    <amount>4234.00</amount>
+                </total>
+            </indirect>
+            <grandTotals id="grandtotal" title="GRANDTOTAL">
+                <previous>
+                    <amount>32462.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment readOnly="true">
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>32462.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <amount>32462.00</amount>
+                </federal>
+                <total>
+                    <amount>32462.00</amount>
+                </total>
+            </grandTotals>
+        </direct>
+        <indirect lastIndirectModified="indirect">
+            <total title="Total Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <base xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <rate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <month xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </total>
+            <lines title="1 - Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method>
+                    <method>Manual</method>
+                </method>
+                <base>
+                    <amount>0.00</amount>
+                </base>
+                <rate>
+                    <percentage>1</percentage>
+                </rate>
+                <month>
+                    <month>12</month>
+                </month>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </lines>
+        </indirect>
+        <nonFederal includeProgIncome="true">
+            <previous title="Recommended">
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </previous>
+            <requested>
+                <applicant>
+                    <amount>0</amount>
+                </applicant>
+                <state>
+                    <amount>0</amount>
+                </state>
+                <other>
+                    <amount>0</amount>
+                </other>
+                <programIncome>
+                    <amount>0</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0</percentOfTotal>
+            </requested>
+            <recommended>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </recommended>
+        </nonFederal>
+    </main>
+    <main activityType="imported" id="jAbTa7AW" name="Early Head Start: TTA" xmlns="">
+        <direct addRequestedInNonFederal="false">
+            <categoryLine categoryType="standard" id="Personnel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Personnel">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Fringe" lastModified="recommended" requestedTransferedToNonFederal="0" title="Fringe Benefits">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Travel" lastModified="recommended" requestedTransferedToNonFederal="0" title="Travel">
+                <previous>
+                    <amount>3935.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>3935.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>3935.00</amount>
+                </federal>
+                <total>
+                    <amount>3935.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Equipment" lastModified="recommended" requestedTransferedToNonFederal="0" title="Equipment">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Supplies" lastModified="recommended" requestedTransferedToNonFederal="0" title="Supplies">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Contractual" lastModified="recommended" requestedTransferedToNonFederal="0" title="Contractual">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Construction" lastModified="recommended" requestedTransferedToNonFederal="0" title="Facilities/Construction">
+                <previous>
+                    <amount>0.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>0.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+            </categoryLine>
+            <categoryLine categoryType="standard" id="Other" lastModified="recommended" requestedTransferedToNonFederal="0" title="Other">
+                <previous>
+                    <amount>6044.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>6044.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>6044.00</amount>
+                </federal>
+                <total>
+                    <amount>6044.00</amount>
+                </total>
+            </categoryLine>
+            <totals id="TOTALS" title="Total Direct">
+                <previous>
+                    <amount>9979.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>9979.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>9979.00</amount>
+                </federal>
+                <total>
+                    <amount>9979.00</amount>
+                </total>
+            </totals>
+            <indirect id="INDIRECT" lastModified="recommended" requestedTransferedToNonFederal="0" title="Indirect Costs">
+                <previous>
+                    <amount>1497.00</amount>
+                </previous>
+                <requested>
+                    <amount>0</amount>
+                </requested>
+                <agencyAdjustedRequested/>
+                <adjustment>
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal>
+                    <amount>1497.00</amount>
+                </subTotal>
+                <uobCarryover>
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal>
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>1497.00</amount>
+                </federal>
+                <total>
+                    <amount>1497.00</amount>
+                </total>
+            </indirect>
+            <grandTotals id="grandtotal" title="GRANDTOTAL">
+                <previous>
+                    <amount>11476.00</amount>
+                </previous>
+                <requested>
+                    <amount>0.00</amount>
+                </requested>
+                <agencyAdjustedRequested>0.00</agencyAdjustedRequested>
+                <adjustment readOnly="true">
+                    <amount>0.00</amount>
+                </adjustment>
+                <recommended readOnly="true">
+                    <amount>0.00</amount>
+                </recommended>
+                <subTotal readOnly="true">
+                    <amount>11476.00</amount>
+                </subTotal>
+                <uobCarryover readOnly="true">
+                    <amount>0.00</amount>
+                </uobCarryover>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                    <amount>11476.00</amount>
+                </federal>
+                <total>
+                    <amount>11476.00</amount>
+                </total>
+            </grandTotals>
+        </direct>
+        <indirect lastIndirectModified="indirect">
+            <total title="Total Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <base xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <rate xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <month xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </total>
+            <lines title="1 - Indirect">
+                <previous>
+                    <amount>0</amount>
+                </previous>
+                <method>
+                    <method>Manual</method>
+                </method>
+                <base>
+                    <amount>0.00</amount>
+                </base>
+                <rate>
+                    <percentage>1</percentage>
+                </rate>
+                <month>
+                    <month>12</month>
+                </month>
+                <recommended>
+                    <amount>0.00</amount>
+                </recommended>
+                <nonFederal readOnly="true">
+                    <amount>0.00</amount>
+                </nonFederal>
+                <federal readOnly="true">
+                    <amount>0.00</amount>
+                </federal>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+                <percentOfTotal>0.0</percentOfTotal>
+                <activity xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </lines>
+        </indirect>
+        <nonFederal includeProgIncome="true">
+            <previous title="Recommended">
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </previous>
+            <requested>
+                <applicant>
+                    <amount>0</amount>
+                </applicant>
+                <state>
+                    <amount>0</amount>
+                </state>
+                <other>
+                    <amount>0</amount>
+                </other>
+                <programIncome>
+                    <amount>0</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0</percentOfTotal>
+            </requested>
+            <recommended>
+                <applicant>
+                    <amount>0.00</amount>
+                </applicant>
+                <state>
+                    <amount>0.00</amount>
+                </state>
+                <other>
+                    <amount>0.00</amount>
+                </other>
+                <programIncome>
+                    <amount>0.00</amount>
+                </programIncome>
+                <total>
+                    <amount>0.00</amount>
+                </total>
+                <percentOfTotal>0.0</percentOfTotal>
+                <note xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+            </recommended>
+        </nonFederal>
+    </main>
+    <fullAdjustment xmlns="">
+        <direct title="Direct Costs">
+            <nonfederal>
+                <amount>0.00</amount>
+            </nonfederal>
+            <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <amount>3442829.00</amount>
+            </federal>
+            <total>
+                <amount>3442829.00</amount>
+            </total>
+        </direct>
+        <indirect title="Indirect Costs">
+            <nonfederal>
+                <amount>0.00</amount>
+            </nonfederal>
+            <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <amount>516424.00</amount>
+            </federal>
+            <total>
+                <amount>516424.00</amount>
+            </total>
+        </indirect>
+        <total title="Total(Direct &amp; Indirect)">
+            <nonfederal>
+                <amount>0.00</amount>
+            </nonfederal>
+            <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+                <amount>3959253.00</amount>
+            </federal>
+            <total>
+                <amount>3959253.00</amount>
+            </total>
+        </total>
+        <categories2Adjust>
+            <category>Total (Direct and Indirect)</category>
+        </categories2Adjust>
+        <budget2Adjust>
+            <category>Federal Only</category>
+        </budget2Adjust>
+        <adjustmentType>Decrease</adjustmentType>
+        <adjustmentPercent>10</adjustmentPercent>
+    </fullAdjustment>
+    <documentation xmlns="">
+        <note>3.4% COLA for all HS staff</note>
+    </documentation>
+    <finalBudget includeProgIncome="true" xmlns="">
+        <totalBudget>
+            <amount>3959253.00</amount>
+        </totalBudget>
+        <nonFederal>
+            <amount>958948.00</amount>
+        </nonFederal>
+        <federal xsi:type="bud:ReadonlyColumnAmountType" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <amount>3959253.00</amount>
+        </federal>
+        <uobCarryover>
+            <amount>0.00</amount>
+        </uobCarryover>
+        <uobOffset>
+            <amount>0.00</amount>
+        </uobOffset>
+        <inkindContribution xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+            <amount>0.00</amount>
+        </inkindContribution>
+        <programIncome>
+            <amount>0.00</amount>
+        </programIncome>
+        <previous>
+            <amount>3835793.00</amount>
+        </previous>
+        <total>
+            <amount>123460.00</amount>
+        </total>
+        <fedNegotiator xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <granteeNegotiator xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <title xsi:nil="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+        <startByDate>
+            <value>ntSolutionsEntity 08/25/2022 02:58:58 PM</value>
+        </startByDate>
+        <lastUpdateBy xsi:nil="false" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><value>SDeabreu 08/26/2022 11:12:23 AM</value></lastUpdateBy>
+    </finalBudget>
+    <financialAccounts xsi:nil="true" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+    <sf424cEligiblePercentage xsi:nil="true" xmlns="" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+</BudgetWorksheet>"
